@@ -1,0 +1,27 @@
+.plusContainer {
+  display: grid;
+  justify-content: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.plusContainer button {
+  font-size: 42px;
+  width: 52px;
+  border: none;
+  border-radius: 50%;
+  color: var(--color-text-primary);
+  background-color: var(--color-primary);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  transition: 200ms;
+}
+
+.plusContainer button:hover {
+  background-color: var(--color-primary-light);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.plusContainer button:focus {
+  outline: none;
+}
